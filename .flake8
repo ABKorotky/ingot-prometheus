@@ -1,0 +1,13 @@
+[flake8]
+exclude=
+    .git
+    .tox
+enable-extensions=
+    I100,I101,I201,I202
+ignore=F821
+max-complexity=9
+max-line-length=88
+
+import-order-style=pep8
+application-import-names=
+    ingot_prometheus

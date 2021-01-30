@@ -1,0 +1,11 @@
+[run]
+source =
+    ingot_prometheus
+omit =
+    ingot_prometheus/tests/*
+
+[report]
+fail_under = 90
+show_missing = 1
+omit =
+    ingot_prometheus/tests/*
